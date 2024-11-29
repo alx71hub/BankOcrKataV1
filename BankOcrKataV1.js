@@ -14,6 +14,7 @@ const digitReps = [
 
 BankOcrKata();
 
+
 function BankOcrKata() {
     const p = 0.9, q = 0.1;
     const pMatrix = [
@@ -63,13 +64,11 @@ function BankOcrKata() {
 }
 
 
-
 function printRep(rep) {
     console.log("Below is the representation of the number:");
     rep.forEach(item => console.log(item));
     console.log("\n");
 }
-
 
 
 function readRepFromFile(fileName) {
@@ -79,7 +78,6 @@ function readRepFromFile(fileName) {
     })
     return outRows;
 }
-
 
 
 /* generate a representation for 9 random digits */
@@ -100,7 +98,6 @@ function generateRandomRep() {
 
     return outRows;
 }
-
 
 
 /* 0 to 9 random */
