@@ -88,9 +88,8 @@ function generateRandomRep() {
     }
     console.log("Random number being tested: " + digits.join(""));
 
-    let outRows = ["", "", ""]; // @return
-    digits.forEach((digit, pos) => {
-        let col = pos*3;
+    const outRows = ["", "", ""]; // @return
+    digits.forEach(digit => {
         outRows[0] += digitReps[digit][0];
         outRows[1] += digitReps[digit][1];
         outRows[2] += digitReps[digit][2];
