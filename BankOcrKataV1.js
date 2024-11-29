@@ -29,7 +29,7 @@ function BankOcrKata() {
         [1,1,1,1,1,1,1,1,1,1]  // 9-th digit
     ]; 
 
-    const rep = generateRandomRep(); // or readRep("all1.txt");
+    const rep = generateRandomRep(); // or readRepFromFile("file.txt");
     printRep(rep);
 
     // build the probability matrix 
