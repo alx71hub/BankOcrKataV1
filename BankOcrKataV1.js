@@ -83,7 +83,7 @@ function readRepFromFile(fileName) {
 /* generate a representation for 9 random digits */
 function generateRandomRep() {
     let digits = [];
-    for (let ix=0; ix<9; ix++) {
+    for (let ix = 0; ix < 9; ix++) {
         digits.push(Math.floor(10 * Math.random()));
     }
     console.log("Random number being tested: " + digits.join(""));
