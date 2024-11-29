@@ -1,5 +1,5 @@
 # BankOcrKataV1
-Probabilisitc Javascript implementation of the Bank OCR Kata
+Probabilisitc Javascript implementation of the Bank OCR Kata: [BankOcrKataV1](BankOcrKataV1.js)
 
 See also https://codingdojo.org/kata/BankOCR/ 
 
