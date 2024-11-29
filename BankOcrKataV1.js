@@ -84,7 +84,7 @@ function readRepFromFile(fileName) {
 function generateRandomRep() {
     let digits = [];
     for (let ix=0; ix<9; ix++) {
-        digits.push(getRandomDigit());
+        digits.push(Math.floor(10 * Math.random()));
     }
     console.log("Random number being tested: " + digits.join(""));
 
@@ -97,10 +97,4 @@ function generateRandomRep() {
     });
 
     return outRows;
-}
-
-
-/* 0 to 9 random */
-function getRandomDigit() {
-    return Math.floor(10 * Math.random()); 
 }
