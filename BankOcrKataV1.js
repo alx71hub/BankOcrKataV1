@@ -104,5 +104,3 @@ function generateRandomRep() {
 function getRandomDigit() {
     return Math.floor(10 * Math.random()); 
 }
-
-/* END */
